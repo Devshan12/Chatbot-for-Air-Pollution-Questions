@@ -1,0 +1,428 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+      "responses": ["Hi! How can I assist you with air pollution information?", "Hello! Need help understanding air pollution?", "Hey there! Ready to learn about air pollution?", "Hi! What would you like to know about air pollution today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+      "responses": ["Goodbye! Stay informed about the environment!", "Take care! Remember to breathe clean air!", "See you! Keep fighting for clean air!", "Bye! Keep reducing air pollution!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're welcome! Glad to help with air pollution info.", "Anytime! Clean air is important!", "My pleasure! Let's work together for cleaner air.", "No problem! Stay informed about air pollution."]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["I'm not sure I understand. Could you clarify your question about air pollution?", "Please provide more information, and I'll do my best to help with air pollution questions."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I'm an environmental assistant, here to help you learn about air pollution.", "You can call me the Air Pollution Info Bot!", "I'm here to provide you with information on air pollution."]
+    },
+    {
+      "tag": "options",
+      "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+      "responses": ["I can provide information on air pollution causes, effects, and prevention methods.", "Ask me anything about air pollution, and I'll help you understand it better."]
+    },
+    {
+      "tag": "what_is_air_pollution",
+      "patterns": ["What is air pollution?", "Explain air pollution", "Define air pollution", "Tell me about air pollution"],
+      "responses": [
+        "Air pollution refers to the contamination of the atmosphere by harmful substances including gases, particulates, and biological molecules, which pose a risk to human health and the environment.<br>Air pollution is the introduction of pollutants into the air that can cause harm to humans, animals, and plants. It can be natural or man-made."
+      ]
+    },
+    {
+      "tag": "causes_of_air_pollution",
+      "patterns": ["What causes air pollution?", "Sources of air pollution", "How does air pollution occur?", "What are the main causes of air pollution?"],
+      "responses": [
+        "Air pollution is primarily caused by human activities such as the burning of fossil fuels in vehicles, industrial processes, and power generation. Natural sources include wildfires, volcanic eruptions, and dust storms.<br>The major sources of air pollution include emissions from vehicles, factories, agriculture, and residential heating. Industrial processes also contribute significantly through the release of chemicals and particulates."
+      ]
+    },
+    {
+      "tag": "effects_of_air_pollution",
+      "patterns": ["What are the effects of air pollution?", "How does air pollution affect us?", "What are the impacts of air pollution?", "Consequences of air pollution?"],
+      "responses": [
+        "Air pollution has several harmful effects, including respiratory issues such as asthma, environmental damage like acid rain, and contributing to climate change through the greenhouse effect.<br>The impacts of air pollution range from health problems in humans, such as lung disease and heart conditions, to environmental issues like the destruction of ecosystems and reduced visibility in urban areas."
+      ]
+    },
+    {
+      "tag": "prevention_of_air_pollution",
+      "patterns": ["How can we prevent air pollution?", "Ways to prevent air pollution", "How to avoid air pollution?", "Preventing air pollution?"],
+      "responses": [
+        "Preventing air pollution involves reducing emissions by using cleaner energy sources, improving energy efficiency, and adopting sustainable practices in industries and agriculture.<br>Key strategies to prevent air pollution include switching to renewable energy, enforcing stricter emission standards, and encouraging public transportation and electric vehicles."
+      ]
+    },
+    {
+      "tag": "reduction_of_air_pollution",
+      "patterns": ["How can we reduce air pollution?", "How to reduce air pollution?", "Ways to reduce air pollution", "Reducing air pollution tips?"],
+      "responses": [
+        "Reducing air pollution involves individual actions like carpooling, reducing energy consumption, and proper waste management, as well as large-scale solutions like investing in green technology and reforestation.<br>You can help reduce air pollution by using public transportation, recycling, supporting clean energy initiatives, and advocating for stronger environmental policies."
+      ]
+    },
+    {
+      "tag": "examples_of_air_pollutants",
+      "patterns": ["What are examples of air pollutants?", "Give me examples of air pollutants", "Types of air pollutants", "What are common air pollutants?", "Air pollutant examples?"],
+      "responses": [
+        "Common air pollutants include carbon monoxide (CO), sulfur dioxide (SO2), nitrogen oxides (NOx), particulate matter (PM10 and PM2.5), ozone (O3), and volatile organic compounds (VOCs).<br>Some harmful air pollutants are carbon dioxide (CO2), lead (Pb), benzene, and ammonia (NH3), which can originate from various industrial, agricultural, and transportation activities."
+      ]
+    },
+    {
+      "tag": "health_effects_of_air_pollution",
+      "patterns": [
+        "What are the health effects of air pollution?", 
+        "How does air pollution affect health?", 
+        "What are the health impacts of air pollution?", 
+        "Health risks of air pollution?",
+        "How does air pollution harm the body?", 
+        "What illnesses are caused by air pollution?", 
+        "Can air pollution make you sick?", 
+        "Health dangers of air pollution?"
+      ],
+      "responses": [
+        "Air pollution can lead to various health problems, including respiratory diseases like asthma and bronchitis, cardiovascular issues, lung cancer, and premature death. Long-term exposure can also contribute to cognitive decline and neurological disorders.<br>Health risks associated with air pollution include worsened allergies, chronic obstructive pulmonary disease (COPD), and an increased risk of heart attacks and strokes. Vulnerable groups like children, the elderly, and those with pre-existing conditions are especially at risk.<br>Air pollution can affect mental health as well, potentially leading to anxiety, depression, and cognitive impairments, particularly in areas with high levels of pollutants."
+      ]
+    },
+    {
+      "tag": "air_pollution_regulations",
+      "patterns": [
+        "What are air pollution regulations?", 
+        "How is air pollution regulated?", 
+        "Air pollution laws", 
+        "What laws address air pollution?", 
+        "Air pollution standards?"
+      ],
+      "responses": [
+        "Air pollution is regulated through national and international laws, such as the Clean Air Act in the United States, which sets limits on emissions of pollutants and mandates the use of cleaner technologies.<br>Governments enforce air quality standards by monitoring pollution levels and imposing penalties on industries that exceed allowed emissions. International agreements like the Paris Agreement also play a role in reducing global air pollution."
+      ]
+    },
+    {
+      "tag": "air_quality_index",
+      "patterns": [
+        "What is the Air Quality Index?", 
+        "Explain the Air Quality Index", 
+        "What does the Air Quality Index measure?", 
+        "How is air quality measured?", 
+        "What is AQI?"
+      ],
+      "responses": [
+        "The Air Quality Index (AQI) is a tool used to communicate how polluted the air currently is or how polluted it is forecast to become. It measures concentrations of pollutants like PM2.5, PM10, NO2, SO2, CO, and O3.<br>AQI values range from 0 to 500, where lower values indicate good air quality and higher values indicate hazardous conditions. The AQI is color-coded to help the public easily understand the air quality level."
+      ]
+    },
+    {
+      "tag": "indoor_air_pollution",
+      "patterns": [
+        "What is indoor air pollution?", 
+        "How does indoor air pollution occur?", 
+        "What are the sources of indoor air pollution?", 
+        "How can we reduce indoor air pollution?", 
+        "Indoor air quality?"
+      ],
+      "responses": [
+        "Indoor air pollution refers to the presence of harmful pollutants inside buildings and homes, caused by sources like tobacco smoke, cooking stoves, heating devices, and household chemicals.<br>To reduce indoor air pollution, ensure proper ventilation, use air purifiers, avoid smoking indoors, and choose eco-friendly cleaning products. Regular maintenance of heating and cooling systems is also important."
+      ]
+    },
+    {
+      "tag": "pollution_reduction_tips",
+      "patterns": [
+        "How can we reduce pollution?", 
+        "Tips to reduce pollution", 
+        "How to reduce pollution?", 
+        "Ways to reduce pollution", 
+        "How to minimize pollution?", 
+        "What can I do to reduce pollution?"
+      ],
+      "responses": [
+        "Here are some effective tips to reduce pollution:<br>1. **Use Public Transportation:** Reduce your carbon footprint by using public transport, carpooling, biking, or walking instead of driving alone.<br>2. **Conserve Energy:** Turn off lights, appliances, and electronics when not in use. Use energy-efficient appliances and light bulbs to reduce energy consumption.<br>3. **Reduce, Reuse, Recycle:** Minimize waste by reusing items, recycling materials like paper, plastic, and glass, and buying products with minimal packaging.<br>4. **Avoid Single-Use Plastics:** Opt for reusable bags, bottles, and containers to reduce plastic waste, which contributes to land and water pollution.<br>5. **Support Renewable Energy:** Whenever possible, choose clean energy sources like solar, wind, or hydroelectric power for your home and support businesses that do the same.<br>6. **Plant Trees:** Trees absorb carbon dioxide and release oxygen, helping to reduce greenhouse gases and improve air quality.<br>7. **Proper Waste Disposal:** Dispose of hazardous waste like batteries, electronics, and chemicals properly to prevent contamination of soil and water.<br>8. **Use Eco-friendly Products:** Choose non-toxic, biodegradable, and environmentally friendly products for cleaning and personal care.<br>9. **Water Conservation:** Use water wisely by fixing leaks, using water-saving fixtures, and reducing water waste in daily activities to protect this valuable resource.<br>10. **Advocate for Change:** Support policies and initiatives that aim to reduce pollution and protect the environment. Raise awareness in your community about the importance of pollution reduction."
+      ]
+    },
+    {
+      "tag": "climate_change_impact",
+      "patterns": [
+        "What are the impacts of climate change?", 
+        "How does climate change affect us?", 
+        "Effects of climate change", 
+        "What are the consequences of climate change?", 
+        "Climate change impacts on the environment", 
+        "How is climate change affecting the world?"
+      ],
+      "responses": [
+        "Climate change has widespread impacts on the environment, human health, and economies. Here are some of the key effects:<br>1. **Rising Global Temperatures:** Average temperatures are increasing, leading to more frequent and severe heatwaves, which can cause heat-related illnesses and deaths.<br>2. **Melting Polar Ice and Glaciers:** The Arctic and Antarctic ice sheets are melting at an alarming rate, contributing to rising sea levels and the loss of habitat for species like polar bears and penguins.<br>3. **Rising Sea Levels:** As glaciers and ice caps melt, sea levels rise, threatening coastal communities with increased flooding, erosion, and the loss of land.<br>4. **More Intense and Frequent Extreme Weather Events:** Climate change is linked to more frequent and severe hurricanes, droughts, wildfires, and storms, causing widespread damage and displacement.<br>5. **Ocean Acidification:** Increased CO2 levels are causing oceans to become more acidic, which harms marine life, particularly species like coral reefs and shellfish.<br>6. **Disruption of Ecosystems:** Many species are struggling to adapt to changing climates, leading to shifts in ecosystems, migration patterns, and in some cases, extinction.<br>7. **Agricultural Challenges:** Changing weather patterns, droughts, and unpredictable growing seasons are affecting crop yields, leading to food shortages and higher prices.<br>8. **Health Impacts:** Climate change exacerbates health problems, including respiratory issues due to poor air quality, the spread of infectious diseases, and mental health challenges related to climate anxiety.<br>9. **Economic Consequences:** The costs of dealing with climate-related disasters, health impacts, and lost agricultural productivity are placing significant strain on economies worldwide.<br>10. **Social and Political Tensions:** As resources become scarcer and disasters more frequent, climate change is leading to increased migration, conflicts over resources, and political instability."
+      ]
+    },
+    {
+      "tag": "air_pollution_and_wildlife",
+      "patterns": [
+        "How does air pollution affect wildlife?", 
+        "Impact of air pollution on animals", 
+        "What does air pollution do to wildlife?", 
+        "How are animals affected by air pollution?"
+      ],
+      "responses": [
+        "Air pollution can have severe impacts on wildlife, including:<br>1. **Habitat Destruction:** Pollutants can alter habitats, making them unsuitable for certain species, leading to loss of biodiversity.<br>2. **Health Problems:** Animals, especially those near urban areas, can suffer respiratory issues, reproductive problems, and even death due to prolonged exposure to pollutants.<br>3. **Water Contamination:** Pollutants that settle into bodies of water can harm aquatic life, disrupting food chains and leading to the decline of species.<br>4. **Acid Rain:** Emissions of sulfur dioxide and nitrogen oxides can lead to acid rain, which damages forests, soils, and water bodies, affecting both plants and animals."
+      ]
+    },
+    {
+      "tag": "economic_impact_of_air_pollution",
+      "patterns": [
+        "What is the economic impact of air pollution?", 
+        "How does air pollution affect the economy?", 
+        "Economic consequences of air pollution", 
+        "Costs of air pollution"
+      ],
+      "responses": [
+        "Air pollution has significant economic impacts, including:<br>1. **Healthcare Costs:** Treating illnesses caused by air pollution, such as respiratory and cardiovascular diseases, places a heavy financial burden on healthcare systems.<br>2. **Reduced Workforce Productivity:** Illnesses and premature deaths related to air pollution can lead to lost workdays and decreased productivity.<br>3. **Damage to Agriculture:** Pollution can reduce crop yields and affect food quality, leading to economic losses in the agricultural sector.<br>4. **Infrastructure Damage:** Acid rain and pollutants can corrode buildings, bridges, and other infrastructure, leading to costly repairs and maintenance."
+      ]
+    },
+    {
+      "tag": "global_policies_on_air_pollution",
+      "patterns": [
+        "What are global policies on air pollution?", 
+        "How is air pollution regulated worldwide?", 
+        "International air pollution agreements", 
+        "Global efforts to reduce air pollution"
+      ],
+      "responses": [
+        "Global policies on air pollution include international agreements and cooperation, such as:<br>1. **The Paris Agreement:** A global pact that aims to limit global warming by reducing greenhouse gas emissions, indirectly helping to reduce air pollution.<br>2. **The Kyoto Protocol:** An international treaty that commits its parties to reduce greenhouse gas emissions, which also contribute to air pollution.<br>3. **The Montreal Protocol:** Focuses on phasing out the production and use of substances that deplete the ozone layer, which also helps in reducing certain air pollutants.<br>4. **Regional Initiatives:** Various regions, such as the European Union, have their own air quality standards and initiatives to combat air pollution, like the European Green Deal."
+      ]
+    },
+    {
+      "tag": "air_pollution_and_human_rights",
+      "patterns": [
+        "How does air pollution relate to human rights?", 
+        "Air pollution as a human rights issue", 
+        "Is clean air a human right?", 
+        "Human rights and air pollution"
+      ],
+      "responses": [
+        "Air pollution is increasingly being recognized as a human rights issue because:<br>1. **Right to Health:** Everyone has the right to live in an environment that allows for good health, which includes breathing clean air.<br>2. **Environmental Justice:** Poor and marginalized communities often suffer more from air pollution due to proximity to industrial areas, making it a social justice issue.<br>3. **International Recognition:** The United Nations and various human rights organizations advocate for clean air as a fundamental human right, pushing governments to implement policies to reduce pollution."
+      ]
+    },
+    {
+      "tag": "historical_air_pollution_events",
+      "patterns": [
+        "What are some historical air pollution events?", 
+        "Famous air pollution disasters", 
+        "History of air pollution", 
+        "Major air pollution events"
+      ],
+      "responses": [
+        "Several historical events have highlighted the dangers of air pollution, including:<br>1. **The Great Smog of London (1952):** A severe air pollution event that led to thousands of deaths and prompted changes in environmental regulations in the UK.<br>2. **The Donora Smog (1948):** A deadly smog event in Pennsylvania, USA, that caused numerous illnesses and deaths, leading to greater awareness of industrial pollution's dangers.<br>3. **Chernobyl Disaster (1986):** While primarily a nuclear disaster, it released massive amounts of pollutants into the air, affecting air quality across Europe.<br>4. **The Bhopal Gas Tragedy (1984):** A chemical leak in India that exposed over half a million people to toxic air, resulting in thousands of deaths and long-term health effects."
+      ]
+    },
+    {
+      "tag": "air_pollution_in_urban_areas",
+      "patterns": [
+        "How does air pollution affect urban areas?",
+        "Air pollution in cities",
+        "Why is air pollution worse in cities?",
+        "Urban air quality issues"
+      ],
+      "responses": [
+        "Urban areas often experience higher levels of air pollution due to dense traffic, industrial activities, and construction work. The concentration of people and vehicles results in increased emissions of pollutants like nitrogen dioxide (NO2) and particulate matter (PM).<br>Cities tend to trap pollutants due to the 'urban heat island' effect, where concrete and asphalt retain heat, affecting air quality. Efforts to reduce pollution in cities include promoting public transport, green spaces, and clean energy sources."
+      ]
+    },
+    {
+      "tag": "air_pollution_in_developing_countries",
+      "patterns": [
+        "Air pollution in developing countries",
+        "Why is air pollution high in developing countries?",
+        "Impact of air pollution in developing nations",
+        "Air quality in developing regions"
+      ],
+      "responses": [
+        "Air pollution in developing countries is often high due to rapid industrialization, urbanization, and reliance on coal and biomass for energy. Limited regulations and weak enforcement can also contribute to higher pollution levels.<br>To combat air pollution, developing countries are focusing on cleaner energy sources, enhancing public transportation, and improving regulatory frameworks to reduce emissions from industries and vehicles."
+      ]
+    },
+    {
+      "tag": "air_pollution_statistics",
+      "patterns": [
+        "Current air pollution statistics",
+        "Air pollution facts",
+        "Latest data on air pollution",
+        "How many people are affected by air pollution?"
+      ],
+      "responses": [
+        "Air pollution is responsible for approximately 7 million premature deaths annually worldwide, according to the World Health Organization (WHO). It also contributes to respiratory and cardiovascular diseases, affecting millions globally.<br>Urban air pollution is particularly severe, with over 90% of the world's population living in areas where air quality levels exceed WHO guidelines. Major pollutants include PM2.5, PM10, NO2, and ozone (O3)."
+      ]
+    },
+    {
+      "tag": "air_pollution_and_mental_health",
+      "patterns": [
+        "Can air pollution affect mental health?",
+        "Air pollution and depression",
+        "How does air pollution impact mental well-being?",
+        "Mental health effects of air pollution"
+      ],
+      "responses": [
+        "Emerging research suggests a link between air pollution and mental health issues, including anxiety, depression, and cognitive decline. Fine particulate matter (PM2.5) and other pollutants may affect brain function and increase the risk of neurodegenerative diseases.<br>Children and older adults are particularly vulnerable to the mental health effects of air pollution. Reducing exposure through clean air initiatives can help protect mental well-being."
+      ]
+    },
+    {
+      "tag": "air_pollution_technologies",
+      "patterns": [
+        "Technologies to reduce air pollution",
+        "Innovations in air pollution control",
+        "How is technology helping with air pollution?",
+        "New air pollution technologies"
+      ],
+      "responses": [
+        "Advanced technologies like air purifiers, electric vehicles, and emissions control systems are helping to reduce air pollution. Innovations such as carbon capture, green roofs, and air quality monitoring devices are also playing a key role.<br>Smart city technologies, including sensors for real-time air quality monitoring and data analytics, are being used to identify pollution hotspots and improve urban planning to reduce exposure."
+      ]
+    },
+    {
+      "tag": "air_pollution_monitoring",
+      "patterns": [
+        "How is air pollution monitored?",
+        "Air pollution sensors",
+        "Methods for monitoring air quality",
+        "Air quality monitoring technology"
+      ],
+      "responses": [
+        "Air pollution is monitored using a variety of technologies, including ground-based sensors, satellite imagery, and remote sensing. Common pollutants like PM2.5, PM10, NO2, SO2, CO, and O3 are measured to assess air quality.<br>Governments and organizations use air quality monitoring networks to track pollution levels and issue warnings during high pollution events. Mobile apps and websites provide real-time data to help people minimize their exposure."
+      ]
+    },
+    {
+      "tag": "air_pollution_and_transportation",
+      "patterns": [
+        "How does transportation contribute to air pollution?",
+        "Air pollution from vehicles",
+        "Impact of cars on air quality",
+        "Transportation and air pollution"
+      ],
+      "responses": [
+        "Transportation is a major contributor to air pollution, particularly in urban areas. Vehicle emissions, especially from cars and trucks, release pollutants such as nitrogen oxides (NOx), carbon monoxide (CO), and particulate matter (PM).<br>Transitioning to electric vehicles, enhancing public transportation, and encouraging biking or walking can significantly reduce transportation-related air pollution."
+      ]
+    },
+    {
+      "tag": "long_term_effects_of_air_pollution",
+      "patterns": [
+        "What are the long-term effects of air pollution?",
+        "How does air pollution affect health over time?",
+        "What are the chronic effects of air pollution?",
+        "Long-term health impacts of air pollution?"
+      ],
+      "responses": [
+        "Long-term exposure to air pollution can cause chronic respiratory diseases, lung cancer, heart disease, and can even affect brain function and cognitive abilities.<br>Over time, air pollution increases the risk of chronic conditions such as asthma, bronchitis, and cardiovascular diseases, especially in vulnerable populations like the elderly and children."
+      ]
+    },
+    {
+      "tag": "air_pollution_and_children",
+      "patterns": [
+        "How does air pollution affect children?",
+        "What are the impacts of air pollution on children's health?",
+        "Air pollution effects on child development?",
+        "Why are children more affected by air pollution?"
+      ],
+      "responses": [
+        "Children are more vulnerable to air pollution due to their developing lungs and immune systems. Exposure can lead to respiratory infections, reduced lung function, asthma, and impaired cognitive development.<br>Air pollution can have long-lasting effects on children, including an increased risk of allergies, learning difficulties, and behavioral problems due to pollutants' impact on brain development."
+      ]
+    },
+    {
+      "tag": "air_pollution_and_elderly",
+      "patterns": [
+        "How does air pollution affect the elderly?",
+        "Why are older adults more affected by air pollution?",
+        "Health impacts of air pollution on seniors?",
+        "Air pollution risks for elderly people?"
+      ],
+      "responses": [
+        "Elderly people are at a higher risk of health problems from air pollution, such as respiratory issues, heart disease, and stroke, due to weakened immune systems and pre-existing conditions.<br>Air pollution can exacerbate chronic conditions like COPD and heart disease in older adults, leading to increased hospitalizations and mortality rates."
+      ]
+    },
+    {
+      "tag": "air_pollution_in_industrial_cities",
+      "patterns": [
+        "Why is air pollution higher in industrial cities?",
+        "Air pollution in urban vs rural areas?",
+        "Causes of air pollution in industrial cities?",
+        "Why do industrial areas have more pollution?"
+      ],
+      "responses": [
+        "Air pollution is higher in industrial cities due to dense traffic, industrial emissions, construction activities, and limited green spaces. Factories and power plants release large amounts of pollutants into the air.<br>Urban areas face more pollution because of higher population density, vehicle emissions, and industrial activities, whereas rural areas may experience less pollution but still be affected by agricultural practices."
+      ]
+    },
+    {
+      "tag": "air_pollution_and_pregnancy",
+      "patterns": [
+        "How does air pollution affect pregnancy?",
+        "Air pollution risks for pregnant women?",
+        "Impacts of air pollution on unborn babies?",
+        "Why is air pollution dangerous during pregnancy?"
+      ],
+      "responses": [
+        "Air pollution during pregnancy is linked to increased risks of low birth weight, preterm birth, and developmental issues in babies. Pollutants can affect the placenta and the developing fetus.<br>Pregnant women exposed to high levels of air pollution may face higher risks of complications such as gestational diabetes, preeclampsia, and respiratory issues, which can affect both the mother and the baby."
+      ]
+    },
+    {
+    
+          "tag": "current_air_pollution_malabe",
+          "patterns": [
+            "What is the current air pollution level in Malabe, Sri Lanka?",
+            "How is the air quality in Malabe today?",
+            "Can you give me the latest air quality data for Malabe, Sri Lanka?",
+            "What are the air pollution levels in Malabe right now?",
+            "How bad is the air quality in Malabe today?",
+            "What is the AQI for Malabe, Sri Lanka?",
+            "Give me the current air pollution information for Malabe."
+          ],
+          "responses": [
+            "Air pollution levels are measured using the Air Quality Index (AQI), which ranges from 0 to 500. The AQI is divided into six categories:<br>1. **Good (0-50):** Air quality is considered satisfactory, with little or no risk.<br>2. **Moderate (51-100):** Air quality is acceptable, but some pollution may pose a moderate health concern for a small number of individuals.<br>3. **Unhealthy for Sensitive Groups (101-150):** Sensitive groups, such as children, the elderly, and those with respiratory or heart conditions, may experience health effects.<br>4. **Unhealthy (151-200):** Everyone may begin to experience adverse health effects, and sensitive groups may experience more serious effects.<br>5. **Very Unhealthy (201-300):** Health alert: everyone may experience more serious health effects.<br>6. **Hazardous (301-500):** Health warning of emergency conditions; the entire population is likely to be affected.<br>To find the current air pollution levels in Malabe, Sri Lanka, you can use the following resources:<br>1. **World Air Quality Index (WAQI):** Check their website for real-time air quality data specific to Malabe.<br>2. **AirVisual:** Provides a global air quality map with detailed information, including for Malabe.<br>3. **Local Environmental Agencies:** Check with Sri Lanka’s environmental monitoring agencies or their official websites for the latest air quality reports.<br>4. **Real-Time APIs:** Use real-time air quality APIs like Breezometer or AQICN to get up-to-date information for Malabe."
+          ]
+        },
+      
+    
+        {
+      "tag": "air_pollution_impacts",
+      "patterns": [
+        "What are the health impacts of different air pollution levels?",
+        "How does air pollution affect health?",
+        "What are the consequences of air pollution levels?",
+        "How harmful is the current air quality?",
+        "What happens at different air pollution levels?"
+      ],
+      "responses": [
+        "The impacts of different air pollution levels on health are as follows:<br>1. **Good (0-50):** No significant health impacts; air quality poses little or no risk.<br>2. **Moderate (51-100):** Sensitive individuals may experience minor health issues; general population remains unaffected.<br>3. **Unhealthy for Sensitive Groups (101-150):** Sensitive groups may experience respiratory or heart-related symptoms, while the general public is less likely to be affected.<br>4. **Unhealthy (151-200):** Everyone may experience adverse health effects, such as respiratory irritation or worsening of existing conditions; sensitive groups may experience more severe impacts.<br>5. **Very Unhealthy (201-300):** Health alert issued; everyone may experience more severe health effects like significant respiratory issues or cardiovascular problems.<br>6. **Hazardous (301-500):** Health emergency; everyone may experience serious health effects, and prolonged exposure can be life-threatening."
+      ]
+    },
+    {
+      "tag": "air_pollution_mitigation",
+      "patterns": [
+        "How to mitigate air pollution impacts?",
+        "What should I do during high air pollution?",
+        "How to reduce exposure to air pollution?",
+        "How can I protect myself from air pollution?",
+        "What actions can help mitigate air pollution effects?"
+      ],
+      "responses": [
+        "To mitigate the effects of air pollution at different levels, consider the following strategies:<br>1. **Good (0-50):** Maintain air quality by minimizing vehicle use, conserving energy, and supporting clean energy initiatives.<br>2. **Moderate (51-100):** Sensitive individuals should reduce prolonged outdoor exertion. General recommendations include reducing vehicle use and avoiding burning wood or trash.<br>3. **Unhealthy for Sensitive Groups (101-150):** Limit outdoor activities, especially for sensitive groups. Use air purifiers indoors and wear masks designed to filter out particulate matter (PM2.5) when outside.<br>4. **Unhealthy (151-200):** Reduce outdoor activities, particularly physical exercise. Use air purifiers and keep windows and doors closed. Avoid using gas-powered equipment or burning wood.<br>5. **Very Unhealthy (201-300):** Stay indoors and keep indoor air clean by avoiding activities that increase indoor pollution. Use air purifiers with HEPA filters, and avoid physical activities that increase breathing rates.<br>6. **Hazardous (301-500):** Stay indoors in a clean air environment. Use N95 or P100 masks if you must go outside. Follow local authorities' advice, such as evacuations or sheltering in place."
+      ]
+    },
+    {
+      "tag": "current_global_air_pollution",
+      "patterns": [
+        "What is the current global air pollution level?",
+        "How bad is air pollution worldwide right now?",
+        "Can you provide the latest global air quality information?",
+        "What is the current state of air pollution around the world?",
+        "How does the air quality look globally today?",
+        "What are the worldwide air pollution levels right now?",
+        "Give me the latest data on global air pollution.",
+        "What is the global air quality index today?"
+      ],
+      "responses": [
+        "Air pollution levels can vary widely across different regions of the world. To get the most accurate and up-to-date information on global air pollution, you can check resources such as:<br>1. **World Air Quality Index (WAQI):** Provides real-time air quality data from around the world. Visit their website for current global air pollution levels.<br>2. **AirVisual:** Offers a global air quality map showing real-time pollution levels and forecasts.<br>3. **United Nations Environment Programme (UNEP):** Provides reports and updates on global air quality and pollution levels.<br>4. **Local Environmental Agencies:** Many countries have their own air quality monitoring networks that provide current pollution levels and forecasts."
+      ]
+    }
+
+  
+      
+    
+    
+  ]
+}
